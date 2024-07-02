@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Object Literals</title>
+	<script type="text/javascript">
+
+  
+		//New Function Syntax
+			let obj={
+				name:"Zain",
+				lname:"Jutt",
+				show(){
+					console.log(this.name+ this.lname);
+
+				}
+
+			};
+			console.log(obj['show']());
+
+			//Destructuring Array
+
+		/*	let user=["zain",22,"Javascript","ccw"];
+
+			let [name,age,course,address]=user;
+			console.log(name); */
+
+			///Destructuring Object
+			let user1={
+				name:`zain`,
+				age:12,
+				city:"City"
+			}
+			let {name,age,city}=user1;
+
+
+
+			console.log(user1);
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

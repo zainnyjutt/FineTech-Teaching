@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var str="JavaScript is a GREAT is is is is is  language";
+
+//Length
+      var a=str.length
+      document.write(a);
+
+      document.write("<hr>");
+
+      //LOWER CASE
+      var b=str.toLowerCase();
+      document.write(b);    
+
+      document.write("<hr>");
+
+      //Upper Case
+      var c=str.toUpperCase();
+      document.write(c);
+    
+      document.write("<hr>");
+
+      //Include
+
+      var d=str.includes("is");
+      document.write(d);
+
+      document.write("<hr>");
+
+      //Starts With 
+      var e=str.startsWith("Javascript");
+      document.write(e);
+
+      document.write("<hr>");
+      //Ends With
+
+      var f=str.endsWith("language");
+      document.write(f);
+      document.write("<hr>");   
+      //Search
+      var h=str.search("a");
+      document.write(h);
+      document.write("<hr>"); 
+
+      //Match
+      var i =str.match(/is/g);
+      document.write(i);
+      document.write("<hr>"); 
+
+     //Index Of
+     var j=str.indexOf("is");
+     document.write(j);
+     document.write("<hr>"); 
+     //last Index Of
+
+     var k=str.lastIndexOf("is");
+     document.write(k);
+     document.write("<hr>");
+
+     //Replace
+     var l=str.replace("is","are");
+     document.write(l);
+     document.write("<hr>");
+     //Method 2
+
+     var m=str.replace(/is/g,"are");
+     document.write(m);
+     document.write("<hr>");
+
+     //Trim
+     var string="                      developer           ";
+     var n=string.trim();
+     alert(n);
+
+     
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html
